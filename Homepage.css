@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #FBB5BF;
+    color: #FFF4DB;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BDF1CF;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid yellow;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #BDF1CF;
+    padding: 70px; /* Adjust padding to control the size of the lime green box */
+    text-align: center; /* Center-align text */
+}
+
+.header h1 {
+    color: #FFF4DB; /* Text color */
+    font-size: 48px; /* Adjust font size as needed */
+}
+/* Existing CSS code remains unchanged */
+
+/* New CSS for positioning and styling the text at the bottom left corner */
+
+
+
+.learn-more input[type="text"],
+.learn-more button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.learn-more button {
+    background-color: #BBDEFB;
+    color: white;
+    cursor: pointer;
+}
+
+.learn-more button:hover {
+    background-color: darkgreen;
+}
+/* Existing CSS code remains unchanged */
+
+/* New CSS for positioning the text at the bottom left corner */
+.bottom-left-text {
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    right: 0px;
+    color: #FFF4DB; /* Text color */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.learn-more {
+    position:absolute;
+    bottom: 100px;
+    right: 10px;
+    text-align: right; /* Align text to the right */
+}
+
+.learn-more input[type="text"],
+.learn-more button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block; /* Ensure input and button are inline */
+}
+
+.learn-more button {
+    background-color: #BBDEFB;
+    color: white;
+    cursor: pointer;
+}
+
+.learn-more button:hover {
+    background-color: darkgreen;
+}
