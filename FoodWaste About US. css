@@ -1,21 +1,51 @@
 *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
 }
 .header{
-    position: relative;
-    padding: 10px 30px;
-    margin: 10px 10px;
-    width: 55%;
+    background-color: #FBB5BF;
+    color: #FFF4DB;
+    font-size: 30px;
+    padding: 100px;
+    margin-left: 800px;
+    margin-right: 200px;
+    position: static;
+    justify-content: space-between;
 }
+
+.founders{
+    background-color: #87d8ab;
+    color: #FFF4DB;
+    display: inline-block;
+    padding: 200px;
+    position: static;
+    block-size: 100px;
+    margin-left: 100px;
+    margin-right: 0px;
+   
+    
+}
+
+.Objective{
+    background-color: #87c1d8;
+    color: #FFF4DB;
+    display:inline-block;
+    padding: 200px;
+    position: static;
+    block-size: 100px;
+   margin-left: 0px; ;
+   margin-right: 100px;
+    
+}
+
 
 
 .heading p {
-    border: 3px solid black;
-    padding: 10px 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial', sans-serif';
-    border-radius: 20px;
-    background-color: beige; 
-    
+border: 3px solid black;
+padding: 10px 0;
+
+border-radius: 20px;
+
+
 }
