@@ -1,1 +1,40 @@
+* {
+  margin: 0; 
+}
+
+.Recipe_Header{
+  background-color: #FBB5BF;
+  color: #FFF4DB
+
+}
+
+.h1{
+ height: 20px;
+}
+
+.Recipe_information {
+ background-color: #87c1d8;
+   position: absolute;
+   left: 1px;
+   bottom: 1px;
+   width: 650px;
+   height: 150px;
+   border: 10px solid gray;
+   padding: 50px;
+   margin: 35px;
+  
+}
+
+.dot{
+  height: 200px;/* determines the size of circles */
+  width: 200px;/* determines the sizes of circles (makes sure they are the same px) */
+  background-color: orange;
+  border-radius: 50%; /* border radius makes it circular */
+  display: inline-block;
+  margin-right: 25px;
+  
+  
+  
+}
+
 
