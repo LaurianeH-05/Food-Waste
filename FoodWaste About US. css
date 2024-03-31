@@ -39,15 +39,20 @@
 .Objective {
   background-color: #87c1d8;
   color: #000000;
+  border: 2px solid  #87c1d8 ;
   padding: 100px; 
-  display:flex;
-  font-size: 35px;
   position: absolute;
   left: 0px;
   width: 250px;
   height: 30%;
   bottom: 0px;
   margin: 50px;
+}
+
+.Objective_text {
+  text-align: center;
+  font-size: 30px;
+  display:relativ;
 }
 
 
@@ -65,8 +70,8 @@
 {
   position: absolute;
   text-align: center;
- 
-  
+
+
 }
 
 .h1
