@@ -1,15 +1,25 @@
 * {
   margin: 0; 
+ 
 }
 
 .Recipe_Header{
+  font-family: 'Lobster', cursive; 
   background-color: #fbb5bf;
   height: 100px;
+  width: 300px;
   font-size: 50px;
   text-align: right;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  margin: 25px;
   color: #FFF4DB
+  
 
 }
+
+
 
 .h1{
  height: 20px;
@@ -20,45 +30,48 @@
    position: absolute;
    left: 1px;
    bottom: 1px;
-   width: 700px;
-   height: 150px;
-   border: 10px solid gray;
+   width: 775px;
+   height: 200px;
+   border: 10px solid #bbdefb ;
    padding: 50px;
-   margin: 35px;
+   margin: 45px;
   
 }
 
 .green_dot{
-  height: 200px;/* determines the size of circles */
-  width: 200px;/* determines the sizes of circles (makes sure they are the same px) */
+  height: 220px;/* determines the size of circles */
+  width: 220px;/* determines the sizes of circles (makes sure they are the same px) */
   background-color: #bdf1cf;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 25px;
-  margin-top: 25px;
+  margin-right: 35px; /* space in between the circles */
+  margin-top: 75px;
+ 
   
   
 }
 
 .pink_dot{
-  height: 200px;/* determines the size of circles */
-  width: 200px;/* determines the sizes of circles (makes sure they are the same px) */
+  height: 220px;/* determines the size of circles */
+  width: 220px;/* determines the sizes of circles (makes sure they are the same px) */
   background-color: #fbb5bf;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 25px;
-  margin-top: 25px;
+  margin-right: 35px;
+  margin-top: 75px;
+ 
   
 
 }
 
 .beige_dot{
-  height: 200px;/* determines the size of circles */
-  width: 200px;/* determines the sizes of circles (makes sure they are the same px) */
+  height: 220px;/* determines the size of circles */
+  width: 220px;/* determines the sizes of circles (makes sure they are the same px) */
   background-color: #FFF4DB;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 25px;
-  margin-top: 25px;
+  margin-right: 400px; /* puts the circles to the right of the screen*/
+  margin-top: 75px;
+ 
 
 }
