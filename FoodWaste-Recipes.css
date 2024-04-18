@@ -1,10 +1,10 @@
+
 * {
   margin: 0; 
- 
-}
 
+}
 .Recipe_Header{
-  font-family: 'Lobster', cursive; 
+  font-family: 'Gochi Hand', cursive;
   background-color: #fbb5bf;
   height: 100px;
   width: 300px;
@@ -13,21 +13,14 @@
   display: flex;
   position: absolute;
   right: 0px;
-  margin: 25px;
+  margin: 30px;
   color: #FFF4DB
-  
-
 }
-
-
-
-.h1{
- height: 20px;
-}
-
 .Recipe_information {
  background-color: #bbdefb;
+   font-family: "Gochi Hand", cursive;
    position: absolute;
+   font-size: 30px;
    left: 1px;
    bottom: 1px;
    width: 775px;
@@ -35,7 +28,7 @@
    border: 10px solid #bbdefb ;
    padding: 50px;
    margin: 45px;
-  
+
 }
 
 .green_dot{
@@ -44,11 +37,10 @@
   background-color: #bdf1cf;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 35px; /* space in between the circles */
+  margin-right: 0px; /* space in between the circles */
+  margin-left: 50px;
   margin-top: 75px;
- 
-  
-  
+
 }
 
 .pink_dot{
@@ -57,10 +49,11 @@
   background-color: #fbb5bf;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 35px;
+  margin-left: 50px;
+  margin-right: 0px;
   margin-top: 75px;
- 
-  
+
+
 
 }
 
@@ -70,8 +63,9 @@
   background-color: #FFF4DB;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 400px; /* puts the circles to the right of the screen*/
+  margin-right: 0px; /* puts the circles to the right of the screen*/
+  margin-left: 50px;
   margin-top: 75px;
- 
+
 
 }
