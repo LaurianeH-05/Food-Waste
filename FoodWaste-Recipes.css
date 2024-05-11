@@ -9,7 +9,7 @@
   height: 100px;
   width: 300px;
   font-size: 50px;
-  text-align: right;
+  text-align: center;
   display: flex;
   position: absolute;
   right: 0px;
@@ -37,9 +37,8 @@
   background-color: #bdf1cf;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 0px; /* space in between the circles */
-  margin-left: 50px;
-  margin-top: 75px;
+  margin-top: 50px;
+  
 
 }
 
@@ -49,10 +48,8 @@
   background-color: #fbb5bf;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-left: 50px;
-  margin-right: 0px;
-  margin-top: 75px;
-
+  margin-top: 50px;
+  
 
 
 }
@@ -63,9 +60,8 @@
   background-color: #FFF4DB;
   border-radius: 50%; /* border radius makes it circular */
   display: inline-block;
-  margin-right: 0px; /* puts the circles to the right of the screen*/
-  margin-left: 50px;
-  margin-top: 75px;
+  margin-top: 50px;
+  
 
 
 }
