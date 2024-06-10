@@ -19,11 +19,31 @@ body{
 .slider-wrapper .image-list{
   display: grid; /* puts images on top of each other */
   gap: 20px; /* space between images */
+  font-size: 0;
+  margin-bottom: 30px;
+  overflow-x: auto; /*puts scroll bar right under pictures*/
+  scrollbar-width: none; /*makes scroll bar invisible*/
   grid-template-columns: repeat(10,1fr) /* put the images on a slider next to each other */
   
+}
+.slider-wrapper .image-list.image-list::-webkit-scrollbar{
+  display: none;
 }
 .slider-wrapper .image-list .image-item{
   width: 100px;
   height:100px;
   object-fit: cover;
+}
+
+.container .slider-scrollbar{
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+  height: 2px;
+  width: 100%;
+  background-color:#dbdbdb ;
 }
