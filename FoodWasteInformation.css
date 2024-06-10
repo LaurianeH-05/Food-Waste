@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boarder-box;
+  
+}
+body{
+  display: flex; /* makes sure items stay in the center*/
+  align-items: center;
+  justify-content: center; /* only allows pictures that are in front view(cuts off the chicken) (center of the page, not height) */
+  min-height: 100vh; /* puts items in the middle*/
+}
+
+.container{ /* makes container larger therefore bring back the chicken*/
+  max-width: 1200px;
+   width: 95%;
+}
+
+.slider-wrapper .image-list{
+  display: grid; /* puts images on top of each other */
+  gap: 20px; /* space between images */
+  grid-template-columns: repeat(10,1fr) /* put the images on a slider next to each other */
+  
+}
+.slider-wrapper .image-list .image-item{
+  width: 100px;
+  height:100px;
+  object-fit: cover;
+}
