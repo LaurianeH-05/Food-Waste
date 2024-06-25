@@ -16,6 +16,16 @@ body{
    width: 95%;
 }
 
+.header{
+  padding: 20px;
+  position: relative;
+  float: left;
+  background-color: pink;
+  color: white;
+  font-size: 20px;
+  
+  
+}
 .slider-wrapper .image-list{
   display: grid; /* puts images on top of each other */
   gap: 20px; /* space between images */
@@ -33,6 +43,32 @@ body{
   width: 100px;
   height:100px;
   object-fit: cover;
+}
+
+.slider-wrapper{
+  position: relative;
+}
+
+.slider-wrapper .slide-button{
+  position: absolute;
+  top: 45%;
+  height: 50px;
+  width: 50px;
+  color: black;
+  background-color: transparent;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.slider-wrapper .slide-button:hover{
+  background: pink;
+}
+.slider-wrapper .slide-button#backwards {
+  left: -20px;
+}
+
+.slider-wrapper .slide-button#fowards {
+  right: -20px;
 }
 
 .container .slider-scrollbar{
