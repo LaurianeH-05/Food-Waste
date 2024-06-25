@@ -1,85 +1,80 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: boarder-box;
-  
-}
-body{
-  display: flex; /* makes sure items stay in the center*/
-  align-items: center;
-  justify-content: center; /* only allows pictures that are in front view(cuts off the chicken) (center of the page, not height) */
-  min-height: 100vh; /* puts items in the middle*/
+  font-family: Gochi Hand; 
+
 }
 
-.container{ /* makes container larger therefore bring back the chicken*/
-  max-width: 1200px;
-   width: 95%;
+.header {
+    background-color: #FBB5BF;
+    color: #FFF4DB;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+    display:flex;
+    position: absolute;
+    right:0px;
+    width: 60%;
+    margin: 40px;
+    height: 15%;
+
+
+
 }
 
-.header{
-  padding: 20px;
-  position: relative;
-  float: left;
-  background-color: pink;
-  color: white;
-  font-size: 20px;
-  
-  
-}
-.slider-wrapper .image-list{
-  display: grid; /* puts images on top of each other */
-  gap: 20px; /* space between images */
-  font-size: 0;
-  margin-bottom: 30px;
-  overflow-x: auto; /*puts scroll bar right under pictures*/
-  scrollbar-width: none; /*makes scroll bar invisible*/
-  grid-template-columns: repeat(10,1fr) /* put the images on a slider next to each other */
-  
-}
-.slider-wrapper .image-list.image-list::-webkit-scrollbar{
-  display: none;
-}
-.slider-wrapper .image-list .image-item{
-  width: 100px;
-  height:100px;
-  object-fit: cover;
-}
-
-.slider-wrapper{
-  position: relative;
-}
-
-.slider-wrapper .slide-button{
+  .founders {
+  background-color: #87d8ab;
+  color: #FFF4DB;
+  padding: 100px; 
+  display:flex;
   position: absolute;
-  top: 45%;
-  height: 50px;
-  width: 50px;
-  color: black;
-  background-color: transparent;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-.slider-wrapper .slide-button:hover{
-  background: pink;
-}
-.slider-wrapper .slide-button#backwards {
-  left: -20px;
+  right: 0px;
+  width: 350px;
+  height: 15%;
+  bottom: 0px;
+  margin: 50px;
+
+
+} 
+
+.Objective {
+  background-color: #87c1d8;
+  color: #000000;
+  border: 2px solid  #87c1d8 ;
+  padding: 100px; 
+  position: absolute;
+  left: 0px;
+  width: 250px;
+  height: 30%;
+  bottom: 0px;
+  margin: 50px;
 }
 
-.slider-wrapper .slide-button#fowards {
-  right: -20px;
+.Objective_text {
+  text-align: center;
+  font-size: 30px;
+  display:relativ;
 }
 
-.container .slider-scrollbar{
-  height: 24px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+
+
+.heading p {
+  border: 3px solid black;
+  padding: 10px 0;
+
+  border-radius: 20px;
+
+
 }
 
-.slider-scrollbar .scrollbar-track {
-  height: 2px;
-  width: 100%;
-  background-color:#dbdbdb ;
+.p
+{
+  position: absolute;
+  text-align: center;
+
+
+}
+
+.h1
+{
+  text-align: right;
 }
