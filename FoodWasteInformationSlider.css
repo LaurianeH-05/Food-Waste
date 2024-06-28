@@ -11,21 +11,23 @@ body{
   min-height: 100vh; /* puts items in the middle*/
 }
 
+.header{
+  margin: 20px;
+  position: absolute;
+  top: 0%;
+  height: 20%;
+  width: 20%;
+  float: left;
+  background-color: pink;
+  font-size: 20px;
+
+}
+
 .container{ /* makes container larger therefore bring back the chicken*/
   max-width: 1200px;
    width: 95%;
 }
 
-.header{
-  padding: 20px;
-  position: relative;
-  float: left;
-  background-color: pink;
-  color: white;
-  font-size: 20px;
-  
-  
-}
 .slider-wrapper .image-list{
   display: grid; /* puts images on top of each other */
   gap: 20px; /* space between images */
