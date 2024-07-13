@@ -67,6 +67,7 @@ body{
 }
 .slider-wrapper .slide-button#backwards {
   left: -20px;
+  display: none;
 }
 
 .slider-wrapper .slide-button#fowards {
