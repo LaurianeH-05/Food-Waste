@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(246, 221, 225);
+    padding: 10px 20px;
+    border-bottom: 5px dashed #8cae99;
+}
+
+.divider {
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-color: #8cae99;
+    margin: 0 20px;
+}
+
+
+.yellow-box {
+    display: inline-block;
+    background-color: yellow;
+    padding: 5px 10px;
+}
+
+.map-container {
+    width: 80%;
+    height: 400px; /* Set the desired height */
+    margin-top: 20px;
+    background-color: #f2f2f2; /* Placeholder color */
+}
+
+.reviews-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(235, 199, 248);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reviews-btn:hover {
+    background-color: pink;
+}
+
+.side-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.blue-box {
+    background-color: blue;
+    padding: 20px;
+}
+
+.review-box {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.final-box {
+    background-color: blue;
+    padding: 20px;
+    margin-top: 20px;
+}
