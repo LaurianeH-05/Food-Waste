@@ -11,7 +11,7 @@
       <div id="header">
         <a href="Homepage.html" class="logo">Logo</a>
         <div class="divider"></div>
-        <a href="" class="navigation">Home</a>
+        <a href="Homepage.html" class="navigation">Home</a>
         <div class="divider"></div>
         <a href="" class="navigation">About</a>
         <div class="divider"></div>
@@ -19,31 +19,39 @@
         <div class="divider"></div>
         <a href="" class="navigation">Information</a>
         <div class="divider"></div>
-        <a href="" class="navigation">Map</a>
+        <a href="Maps.html" class="navigation">Map</a>
       </div>
-      <div class="map-container" id="mapPlaceholder">
-        <!-- Google Maps API Placeholder -->
-      </div>
-      <button class="reviews-btn" onclick="toggleReview()">Reviews</button>
-      <div class="reviews-container" id="reviewsContainer">
-        <!-- Reviews will be dynamically inserted here -->
-      </div>
-      <div class="side-box">
-        <div class="blue-box">
-          <img src="image1.jpg" alt="Image 1" />
-          <img src="image2.jpg" alt="Image 2" />
-        </div>
-        <div class="review-box">
-          <!-- Customer review 1 -->
-        </div>
-        <div class="review-box">
-          <!-- Customer review 2 -->
-        </div>
-        <div class="final-box">
-          <!-- Final box content with emojis and speech bubble -->
-        </div>
+      
       </div>
     </div>
+    <main>
+      <section id = "reviews">
+        <h2>Reviews</h2>
+        <div class = "review-card">
+          <p class="review-text"> "Great inititative, really making an impact!</p>
+          <p class="review-rating">⭐⭐⭐⭐⭐</p>
+          <p class="review-author">Jane Smith</p>
+        </div>
+        <div class = "review-card">
+          <p class="review-text"> "Very helpful!!"</p>
+          <p class="review-rating">⭐⭐⭐⭐☆</p>
+          <p class="review-author">John Doe</p>
+        </div>
+
+      </section>
+      <section id="map">
+        <h2>Map</h2>
+        <div id="map-container"></div>
+      </section>
+    </main>
     <script src="Maps.js"></script>
+
+    <div id="footer">
+      <div class="navigation">Privacy Policy</div>
+      <div class="divider"></div>
+      <div class="navigation">Terms of Services</div>
+      <div class="divider"></div>
+      <div class="navigation">Socials</div>
+    </div>
   </body>
 </html>
