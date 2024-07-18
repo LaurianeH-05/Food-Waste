@@ -8,18 +8,23 @@ body{
   display: flex; /* makes sure items stay in the center*/
   align-items: center;
   justify-content: center; /* only allows pictures that are in front view(cuts off the chicken) (center of the page, not height) */
-  min-height: 100vh; /* puts items in the middle*/
+  min-height: 110vh; /* puts items in the middle*/
 }
 
 .header{
   margin: 20px;
   position: absolute;
   top: 0%;
-  height: 20%;
-  width: 20%;
+  height: 15%;  /* makes the header taller*/
+  width: 35%;   /* makes the header wider*/
   float: left;
   background-color: pink;
-  font-size: 20px;
+  font-size: 40px;
+  font-family: 'Gochi Hand', cursive;
+  color: #FFF4DB;
+  text-align: center;
+  display: absolute;
+  
 
 }
 
@@ -68,10 +73,14 @@ body{
 .slider-wrapper .slide-button#backwards {
   left: -20px;
   display: none;
+
 }
 
 .slider-wrapper .slide-button#fowards {
   right: -20px;
+  
+
+  
 }
 
 .container .slider-scrollbar{
