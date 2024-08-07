@@ -1,7 +1,6 @@
 * {
   margin: 0;
-  font-family: Gochi Hand; 
-
+  font-family: Gochi Hand;
 }
 
 .header {
@@ -22,31 +21,39 @@
 }
 
   .founders {
-  background-color: #87d8ab;
-  color: #FFF4DB;
-  padding: 100px; 
-  display:flex;
-  position: absolute;
-  right: 0px;
-  width: 350px;
-  height: 15%;
-  bottom: 0px;
   margin: 50px;
-
-
+  padding: 50px; 
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #bdf1cf;
 } 
 
-.Objective {
-  background-color: #87c1d8;
-  color: #000000;
-  border: 2px solid  #87c1d8 ;
-  padding: 100px; 
-  position: absolute;
-  left: 0px;
-  width: 250px;
-  height: 30%;
-  bottom: 0px;
+.founders .yellow-picture{
   margin: 50px;
+  border-radius: 50%;
+  background-color: #FFF4DB;
+}
+
+
+.founders .pink-picture{
+  margin: 50px;
+  border-radius: 50%;
+  background-color: #FBB5BF;
+}
+
+.Objective {
+  padding: 50px;
+  margin: 50px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  bottom: 0px;
+  background-color: #bbdefb;
+  border: 2px solid  #bbdefb ;
+  color: #000000;
 }
 
 .Objective_text {
