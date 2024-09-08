@@ -1,3 +1,10 @@
+body {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
 #header {
     display: flex;
     align-items: center;
@@ -32,7 +39,7 @@ section {
     margin: 10px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow:  0 0 10px rgba (0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 #reviews h2, #map h2 {
@@ -60,10 +67,29 @@ section {
 }
 
 #map-container {
-    width: 100%;
+    position: relative;
+}
+
+#map {
+    position: right;
+    
+    width: 40%;
     height: 400px;
     background: #eee;
     border-radius: 8px;
+    margin-top: 20px;
+    
+    left: 0;
+    transform: translateY(20px);
+}
+
+#autocomplete {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1024px) {

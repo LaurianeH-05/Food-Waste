@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website Reviews and Maps</title>
     <link rel="stylesheet" href="Maps.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <link
+     href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins&display=swap"
+     rel="stylesheet"
+   />
   </head>
   <body>
     <div class="container">
@@ -27,6 +37,8 @@
     <main>
       <section id = "reviews">
         <h2>Reviews</h2>
+        <button id="review-button">+</button>
+        <form action="review-input">review</form>
         <div class = "review-card">
           <p class="review-text"> "Great inititative, really making an impact!</p>
           <p class="review-rating">⭐⭐⭐⭐⭐</p>
@@ -41,8 +53,21 @@
       </section>
       <section id="map">
         <h2>Map</h2>
+        <input id="autocomplete" placeholder="Search for places" type="text"></input>
         <div id="map-container"></div>
       </section>
+    
+       <div>
+        <input type="checkbox" id="foodBanks" name="filter" value="foodBanks"> Food Banks<br>
+        <input type="checkbox" id="compostCenters" name="filter" value="compostCenters"> Composting Centers<br>
+        <input type="checkbox" id="foodWasteDrop-off" name="filter" value="foodWasteDrop-off"> Food Waste Drop-Off Points<br>
+    </div>
+<script>
+    var autocomplete = new google.maps.places.Autocomplete(document.getElementById('autocomplete'));
+    autocomplete.addListener('place_changed', function () {
+        var place = autocomplete.getPlace();
+    });
+</script>
     </main>
     <script src="Maps.js"></script>
 
